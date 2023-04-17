@@ -1,0 +1,112 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.well{
+    background-image: url("food-wallpaper-20100313201245.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height:auto;
+    width: auto;
+}
+#content{
+    border: 1px solid transparent;
+    color: white;
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    background-color: transparent;
+    text-align: right;
+    line-height: 50px;
+    
+}
+#log{
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+#acc{
+    /* background-color: transparent;
+    color: white;
+    border: 1px solid white; */
+   
+    padding: 7px;
+    cursor: pointer;
+}
+.cir{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+    height: 90px;
+    width: 90px;
+    margin-left: 45%;
+    margin-top: 5%;
+    background-image: url(edureka.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-position: 40%;
+}
+.hd{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.search{
+    display: grid;
+    justify-content: center;
+    /* align-items: center;  
+    grid-auto-rows: auto;
+    border: none;  */
+}
+.inbox{
+    margin: 10px 0 10px 0;
+}
+.h{
+    color:grey;
+}
+
+form,#cities{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#cities{
+    width: 400px;
+}
+.box{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    /* margin-left: 10px; */
+    height: 160px;
+    position: relative;   
+}
+img{
+    position: absolute;
+    height: 160px;
+    width: 125px;
+    top: 0;
+    left: 0;
+}
+h4{
+    position: absolute;
+    max-width: 150px;
+    margin-top: 15px;
+    margin-left: 120px;
+    
+    padding: 0;  
+}
+.i11{
+    padding: 10px;
+}
+span{
+    color: grey;
+    font-size: 13px;
+    
+    letter-spacing: 0;
+    padding: 0;  
+}
